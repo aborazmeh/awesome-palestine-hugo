@@ -1,0 +1,481 @@
+Official:
+  - title: Palestinian Ministry of Health
+    link: http://moh.gov.ps
+  - title: Palestinian Central Bureau of Statistics
+    link: https://www.pcbs.gov.ps
+
+Documents & Reports:
+  - title: Detailed list of the civilian causalities between 7-26 October
+    link: https://www.aljazeera.net/wp-content/uploads/2023/10/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D8%A8%D8%A7%D8%B3%D9%85%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D9%87%D8%AF%D8%A7%D8%A1-2.pdf
+  - title: Anti-Palestinian Racism Framework by the Arab Canadian Lawyers Association
+    link: https://static1.squarespace.com/static/61db30d12e169a5c45950345/t/627dcf83fa17ad41ff217964/1652412292220/Anti-Palestinian+Racism-+Naming%2C+Framing+and+Manifestations.pdf
+    note: 📄 [Anti-Palestinian Racism Factsheet by Canadians for Justice in Palestine and the Middle East](https://assets.nationbuilder.com/cjpme/pages/965/attachments/original/1657297831/227_-_Factsheet_on_Anti-Palestinian_Racism_-_EN.pdf?1657297831)
+  - title: International Court of Justice application alleging Genocide in Gaza, filed 29 December 2023
+    link: https://www.icj-cij.org/sites/default/files/case-related/192/192-20231228-app-01-00-en.pdf
+    note: 📄 [Summary by John Mearsheimer](https://mearsheimer.substack.com/p/genocide-in-gaza)
+  - title: Human Rights Watch
+    link: https://www.hrw.org/middle-east/north-africa/israel/palestine
+    adds:
+      - title: Human Rights Watch - Reports
+        link: https://www.hrw.org/publications?country%5B0%5D=9638
+  - title: Amnesty International
+    link: https://www.amnestyusa.org/countries/palestine-state-of
+  - title: B'Tselem - The Israeli Information Center for Human Rights in the Occupied Territories
+    link: https://www.btselem.org
+  - title: United Nations Fact Finding Mission on the Gaza Conflict (The Goldstone Report)
+    link: https://www.ohchr.org/en/hr-bodies/hrc/special-sessions/session9/fact-finding-mission
+    note: ⚠️ **Richard Goldstone, the lead author of the report, later wrote an op-ed in [The Washington Post](https://www.washingtonpost.com/opinions/2011/04/01/AFg111JC_story.html) on 1 April 2011 in which he retracted some of the report's conclusions.**
+  - title: Al-Haq
+    link: https://www.alhaq.org
+  - title: Palestinian Return Centre
+    link: https://prc.org.uk
+  - title: Madar Center
+    link: https://www.madarcenter.org
+
+Books:
+  History:
+    - title: The Ethnic Cleansing of Palestine
+      author: Ilan Pappé
+      pub_year: 2006
+      goodreads_id: 57540
+    - title: "The Hundred Years' War on Palestine: A History of Settler-Colonial Conquest and Resistance, 1917-2017"
+      author: Rashid Khalidi
+      pub_year: 2020
+      goodreads_id: 41812831
+    - title: 'Palestine: A Four Thousand Year History'
+      author: Nur Masalha
+      pub_year: 2018
+      goodreads_id: 36645450
+    - title: Image and Reality of the Israel-Palestine Conflict
+      author: Norman G. Finkelstein
+      pub_year: 1995
+      goodreads_id: 169481
+    - title: The Lemon Tree
+      author: Sandy Tolan
+      pub_year: 2006
+      goodreads_id: 151740
+  Politics:
+    - title: 'Fateful Triangle: The United States, Israel, and the Palestinians'
+      author: Noam Chomsky
+      pub_year: 1982
+      goodreads_id: 62698
+    - title: The Israel Lobby and U.S. Foreign Policy
+      author: John J. Mearsheimer & Stephen M. Walt
+      pub_year: 2006
+      goodreads_id: 224127
+    - title: 'Palestine: Peace Not Apartheid'
+      author: Jimmy Carter
+      pub_year: 2006
+      goodreads_id: 9345
+  Israel:
+    - title: Ten Myths About Israel
+      author: Ilan Pappé
+      pub_year: 2017
+      goodreads_id: 31171856
+    - title: The State of Israel vs. the Jews
+      author: Sylvain Cypel
+      pub_year: 2021
+      goodreads_id: 57067707
+    - title: 'Justice for Some: Law and the Question of Palestine'
+      author: Noura Erakat
+      pub_year: 2019
+      goodreads_id: 43154949
+    - title: "Hollow Land: Israel's Architecture of Occupation"
+      author: Eyal Weizman
+      pub_year: 2007
+      goodreads_id: 1086651
+    - title: 'A Day in the Life of Abed Salama: Anatomy of a Jerusalem Tragedy'
+      author: Nathan Thrall
+      pub_year: 2023
+      goodreads_id: 77920745
+      adds:
+        - title: A Day in the Life of Abed Salama
+          pub_year: 2021
+          icon: 📰
+          link: https://www.nybooks.com/daily/2021/03/19/a-day-in-the-life-of-abed-salama
+    - title: من هم اليهود؟ وما هي اليهودية؟ أسئلة الهوية وأزمة الدولة اليهودية
+      author: عبد الوهاب المسيري
+      pub_year: 2008
+      goodreads_id: 5619985
+    - title: "The General's Son: Journey of an Israeli in Palestine"
+      author: Miko Peled
+      pub_year: 2012
+      goodreads_id: 14649174
+  Zionism:
+    - title: موسوعة اليهود واليهودية والصهيونية
+      author: عبد الوهاب المسيري
+      pub_year: 1999
+      link: https://www.goodreads.com/series/265200
+    - title: موسوعة اليهود واليهودية والصهيونية الموجزة
+      author: عبد الوهاب المسيري
+      pub_year: 1999
+      link: https://www.goodreads.com/series/265199
+  Non-Jewish Zionism:
+    - title: 'Non-Jewish Zionism: Its Roots in Western History'
+      author: Regina Sharif
+      pub_year: 1983
+      goodreads_id: 9507130
+    - title: "Forcing God's Hand: Why Millions Pray for a Quick Rapture and Destruction of Planet Earth"
+      author: Grace Halsell
+      pub_year: 2000
+      goodreads_id: 525278
+    - title: 'Prophecy and Politics: Militant Evangelists on the Road to Nuclear War'
+      author: Grace Halsell
+      pub_year: 1986
+      goodreads_id: 729879
+  Gaza:
+    - title: 'Gaza: An Inquest into Its Martyrdom'
+      author: Norman G. Finkelstein
+      pub_year: 2018
+      goodreads_id: 35070437
+    - title: 'The Biggest Prison on Earth: A History of the Occupied Territories'
+      author: Ilan Pappé
+      pub_year: 2016
+      goodreads_id: 2856775
+    - title: 'Failing Peace: Gaza and the Palestinian-Israeli Conflict'
+      author: Sara Roy
+      pub_year: 2006
+      goodreads_id: 654400
+    - title: 'This Time We Went Too Far: Truth & Consequences of the Gaza Invasion'
+      author: Norman G. Finkelstein
+      pub_year: 2010
+      goodreads_id: 8064852
+  Arabs of Israel (48-Palestinians):
+    - title: 'The Forgotten Palestinians: A History of the Palestinians in Israel'
+      author: Ilan Pappé
+      pub_year: 2013
+      goodreads_id: 11249577
+    - title: 'The Palestinians in Israel: Readings in History, Politics and Society'
+      author: Nadim N. Rouhana & Areej Sabbagh-Khoury (Eds.)
+      pub_year: 2011
+      icon: 📖
+      link: https://www.academia.edu/10514312/The_Palestinains_in_Israel_Readings_in_History_Politics_and_Society
+  Fiction:
+    - title: 'The Woman from Tantoura: A Palestinian Novel'
+      author: Radwa Ashour
+      pub_year: 2010
+      goodreads_id: 17678418
+    - title: "Palestine's Children: Returning to Haifa & Other Stories"
+      author: Ghassan Kanafani
+      pub_year: 1984
+      goodreads_id: 125252
+    - title: Men in the Sun
+      author: Ghassan Kanafani
+      pub_year: 1963
+      goodreads_id: 3429641
+
+Archives:
+  - title: The Palestinian Museum Digital Archive
+    link: https://palarchive.org
+  - title: The Palestine Poster Project Archives
+    link: https://www.palestineposterproject.org
+  - title: Nakba Archive
+    link: https://www.nakba-archive.org
+  - title: Matson (G. Eric and Edith) Photograph Collection
+    link: https://www.loc.gov/pictures/collection/matpc
+  - title: UNRWA photo and film archive for Palestine refugees
+    link: https://www.unrwa.org/photo-and-film-archive
+  - title: Palestinian Sound Archive
+    link: https://www.nts.live/shows/palestinian-sound-archive
+    icon: 🎵
+  - title: 'The Avalon Project - The Middle East 1916-2001: A Documentary Record'
+    link: https://avalon.law.yale.edu/subject_menus/mideast.asp
+    icon: 📄
+  - title: The 1967 Census of the West Bank and Gaza Strip:A Digitized Version
+    link: https://www.levyinstitute.org/palestinian-census
+    icon: 📄
+  - title: Maps of Palestine before the Nakba
+    link: https://palmap.link
+  - title: Palestine Remembered
+    link: https://palestineremembered.com
+  - title: Hidden Palestine
+    link: https://hiddenpalestine.com
+    icon: 📸
+  - title: Palestine Land Society
+    link: https://www.plands.org/en
+  - title: Zochrot
+    link: https://www.zochrot.org/welcome/index/en
+  - title: Balfour Project
+    link: https://balfourproject.org
+
+Movies:
+  - title: Farha
+    imdb_tt: 11555492
+    year: 2021
+  - title: Gaza Fights For Freedom
+    imdb_tt: 10825504
+    year: 2019
+    adds:
+      - title: Gaza Fights For Freedom
+        link: https://www.youtube.com/watch/?v=HnZSaKYmP2s
+        year: 2021
+      - title: International Version (TUR, POL, ESP, FRA, DEU, SAU subtitles)
+        link: https://www.vimeo.com/381391163
+  - title: Censored Voices
+    imdb_tt: 3457376
+    year: 2015
+  - title: Tantura
+    imdb_tt: 16378034
+    year: 2022
+    adds:
+      - title: TANTURA - Documentary
+        link: https://www.youtube.com/watch/?v=qIs6lTt6I8k
+        year: 2022
+  - title: 'A Reel War: Shalal'
+    link: https://jfi.org/year-round/jfi-on-demand/a-reel-war-shalal-x8731
+    year: 2023
+    adds:
+      - title: Trailer
+        link: https://www.youtube.com/watch/?v=mvMwJyZ4qqs
+  - title: Boycott
+    imdb_tt: 15721106
+    year: 2021
+  - title: Killing Gaza
+    link: https://killinggaza.com
+    year: 2018
+    adds:
+      - title: Killing Gaza
+        link: https://www.youtube.com/watch/?v=Vwb2OlqTO0M
+        year: 2018
+  - title: '1948: Creation & Catastrophe'
+    imdb_tt: 7977026
+    year: 2017
+    adds:
+      - title: '1948: Creation & Catastrophe'
+        link: 1948movie.com
+        year: 2017
+        icon: 🌐
+      - title: '1948: Creation & Catastrophe'
+        link: https://www.youtube.com/watch/?v=Bwy-Rf15UIs
+        year: 2017
+  - title: 'On the Brink: Jenin’s rising resistance'
+    link: https://mondoweiss.net/2023/03/on-the-brink-jenins-rising-resistance
+    year: 2023
+    adds:
+      - title: 'On the Brink: Jenin’s rising resistance'
+        link: https://www.youtube.com/watch/?v=NKEdxHEQz00
+        year: 2023
+  # - ![Youtube icon](images/youtube.svg) [ ()](https://www.youtube.com/watch?v=)
+  - title: Five Broken Cameras
+    imdb_tt: 2125423
+    year: 2011
+    adds:
+      - title: Five Broken Cameras
+        link: https://www.youtube.com/watch/?v=SI37liwTIYI
+        year: 2011
+  - title: Al Nakba Documentary (multi-lingual)
+    link: https://www.youtube.com/playlist?list=PL30A8F80C4E383847
+    year: 2014
+  - title: من أي رفح أنت؟
+    link: https://www.aljazeera.net/programs/al-jazeeraspecialprograms/2014/8/6/%D9%85%D9%86-%D8%A3%D9%8A-%D8%B1%D9%81%D8%AD-%D8%A3%D9%86%D8%AA
+    year: 2013
+    adds:
+      - title: من أي رفح أنت؟
+        link: https://www.youtube.com/watch/?v=oy_AtxpIQBw
+        year: 2013
+  - title: Palestine Is Still the Issue
+    link: https://johnpilger.com/videos/palestine-is-still-the-issue
+    year: 2002
+    adds:
+      - title: Palestine Is Still the Issue
+        link: https://www.youtube.com/watch/?v=39EjqBrJBAc
+        year: 2002
+
+Media:
+  - title: Al Jazeera
+    link: https://www.aljazeera.com
+    adds:
+      - title: Al Jazeera Palestine
+        link: https://twitter.com/AJA_PalestineEN
+      - title: Al Jazeera Palestine
+        link: https://t.me/AJPalestine
+  - title: Middle East Eye
+    link: https://www.middleeasteye.net
+  - title: Mondoweiss
+    link: https://mondoweiss.net
+  - title: The Electronic Intifada
+    link: https://electronicintifada.net
+  - title: +972 Magazine
+    link: https://www.972mag.com
+  - title: Haaretz
+    link: https://www.haaretz.co.il
+  - title: Jadaliyya
+    link: https://www.jadaliyya.com
+  - title: Eye on Palestine
+    link: https://www.eyeonpalestine.ps
+    adds:
+      - title: Eye on Palestine
+        link: https://www.instagram.com/eye.on.palestine
+      - title: Eye of Palestine
+        link: https://t.me/eyeonpal
+  - title: Al-Monitor
+    link: https://www.al-monitor.com/palestine
+  - title: Quds News Network
+    link: https://qudsnen.co
+  - title: Shehab News
+    link: https://shehabnews.com
+    adds:
+      - title: Shehab News
+        link: https://twitter.com/ShehabAgency
+      - title: Shehab News
+        link: https://t.me/ShehabTelegram
+      - title: Shehab Breaking News
+        link: https://t.me/ShehabTelegram2
+  - title: Democracy Now
+    link: https://www.democracynow.org/topics/israel_and_palestine
+    adds:
+      - title: Democracy Now! Audio
+        link: https://open.spotify.com/show/3cNrL5nALTDuWbRfabHeOG
+  - title: The Real News Network
+    link: https://therealnews.com/tag/palestine
+  - title: Novara Media
+    link: https://novaramedia.com
+    adds:
+      - title: Novara Media
+        link: https://open.spotify.com/show/3KtmyPhvQ2FvhwdRNo5I1N
+      - title: Novara Live
+        link: https://open.spotify.com/show/3HK3Uw3kX7iHnXfMnoLV6x
+  - title: If Americans Knew
+    link: https://ifamericansknew.org
+  - title: The Grayzone
+    link: https://thegrayzone.com/
+  - title: CounterPunch
+    link: https://www.counterpunch.org/
+
+War Supporting Companies:
+  - title: Boycott war supporting companies
+    link: https://boycott.thewitness.news
+    adds:
+      - title: '@savegazabot'
+        link: https://t.me/Savegazabot
+  - title: bdnaash
+    link: https://bdnaash.com
+  - title: boycotzionism
+    link: https://www.boycotzionism.com
+  - title: Boykot Ürünleri
+    link: https://boykoturunleri.com.tr
+    country: tr
+  - title: Boykot.co
+    link: https://www.boykot.co
+    country: tr
+  - title: Boykot Hareketi
+    link: https://boykothareketi.com
+    country: tr
+  - title: A Collection of War Supporting Companies Lists
+    link: https://freepalestine1948.gitbook.io/boycott
+
+Open-Source Intelligence:
+  - title: Eekad
+    link: https://twitter.com/EekadFacts
+    adds:
+      - title: Eekad
+        link: https://www.youtube.com/@EekadFacts
+  - title: Sulaiman Ahmed
+    link: https://twitter.com/ShaykhSulaiman
+
+Activists & Journalists:
+  - title: The Institute for Middle East Understanding (IMEU)
+    link: https://imeu.org
+  - title: Adalah - The Legal Center for Arab Minority Rights in Israel
+    link: https://www.adalah.org/en
+  - title: Adalah Justice Project
+    link: https://www.adalahjusticeproject.org
+  - title: Al Mezan Center for Human Rights
+    link: https://www.mezan.org/en
+  - title: 'Addameer: Prisoner Support and Human Rights Association'
+    link: https://www.addameer.org
+  - title: Palestinian Youth Movement
+    link: https://palestinianyouthmovement.com
+  - title: Jewish Voice for Peace
+    link: https://www.jewishvoiceforpeace.org
+  - title: Motaz Azaiza
+    link: https://www.instagram.com/motaz_azaiza
+  - title: Wael Al Dahdouh
+    link: https://www.instagram.com/wael_eldahdouh
+  - title: Bisan
+    link: https://www.instagram.com/wizard_bisan1
+  - title: Hind Khoudary
+    link: https://twitter.com/Hind_Gaza
+  - title: Mohammed El-Kurd
+    link: https://twitter.com/m7mdkurd
+  - title: Jonathan Cook
+    link: https://www.jonathan-cook.net
+  - title: 'Palestine Legal: to protect the rights of people in the U.S. who speak out for Palestinian freedom'
+    link: https://palestinelegal.org
+
+Donations:
+  - title: UNRWA
+    link: https://donate.unrwa.org
+  - title: Rahma International Society
+    link: https://www.khaironline.net/Projects/NewCampaignViewEn.aspx?PrjMarketingID=29031&PID=47&PrID=522
+  - title: İHH İnsani Yardım Vakfı
+    link: https://ihh.org.tr
+    country: tr
+  - title: Türk Kızılay- Filistin Genel Bağışı
+    link: https://www.kizilay.org.tr/Bagis/BagisYap/32
+    country: tr
+  - title: The Palestinian Medical Relief Society
+    link: https://pmrs.ps
+  - title: Islamic Relief Worldwide - Palestine Emergency Appeal
+    link: https://islamic-relief.org/appeals/palestine-emergency-appeal
+    adds_list:
+      - title: Islamic Relief USA - Middle East | Palestine
+        link: https://irusa.org/middle-east/palestine
+        country: us
+      - title: Islamic Relief Canada - Gaza Appeal
+        link: https://www.islamicreliefcanada.org/emergencies/gaza-appeal
+        country: ca
+      - title: 'Islamic Relief Canada - Support Palestine: Palestine Emergency Appeal'
+        link: https://www.islamicreliefcanada.org/emergencies/palestine
+        country: ca
+      - title: Islamic Relief UK - Palestine Emergency Appeal
+        link: https://www.islamic-relief.org.uk/giving/appeals/palestine
+        country: gb
+  - title: LaunchGood - Support Hospitals In Gaza
+    link: https://www.launchgood.com/WithGaza
+  - title: King Salman Humanitarian Aid and Relief Center / مركز الملك سلمان للإغاثة والأعمال الإنسانية
+    link: https://sahem.ksrelief.org/Pages/ProgramDetails/1ca8852b-9e6d-ee11-b83f-005056ac5498
+    country: sa
+  - title: MAP - Medical Aid for Palestinians
+    link: https://www.map.org.uk
+    country: gb
+  - title: One Nation - Gaza Emergency Appeal
+    link: https://onenationuk.org/gazaemergency
+    country: gb
+
+Petitions:
+  - title: Palestine Campaign
+    link: https://palestinecampaign.org
+    icon: 🌐
+    adds:
+      - title: Palestine Campaign - Petitions
+        link: https://palestinecampaign.eaction.online
+  - title: '#CeasefireNow: Open Call for an Immediate Ceasefire in the Gaza Strip and Israel'
+    link: https://www.change.org/p/sign-and-share-this-urgent-petition-calling-for-a-ceasefirenow-in-gaza-and-israel
+  - title: American government to call for immediate ceasefire in Gaza
+    link: https://www.change.org/p/american-government-to-call-for-immediate-ceasefire-in-gaza
+    country: us
+  - title: Israel / Palestine — Stop Child Bloodshed Now
+    link: https://secure.avaaz.org/campaign/en/israel_palestine_save_the_kids_loc
+  - title: 'Write Your Members of Congress: Sign onto the Ceasefire Now resolution'
+    link: https://actionnetwork.org/letters/tell-congress-ceasefire-now
+    country: us
+  - title: 'Amnesty International: Demand a ceasefire by all parties to end civilian suffering'
+    link: https://www.amnesty.org/en/petition/demand-a-ceasefire-by-all-parties-3to-end-civilian-suffering
+  - title: Seek a ceasefire and to end Israeli occupation of the West Bank and Gaza Strip
+    link: https://petition.parliament.uk/petitions/648292
+    country: gb
+  - title: 'Canada: Urgent Action Needed to Secure an Immediate Ceasefire & Humanitarian Corridor in Gaza'
+    link: https://act.newmode.net/action/islamic-relief-canada/canada-call-immediate-humanitarian-corridor-gaza
+    country: ca
+  - title: Boycott, Divestment, Sanctions (BDS) is a Palestinian-led movement for freedom, justice and equality
+    link: https://bdsmovement.net
+    country: ps
+
+Pro-Palestine Websites:
+  - title: Palestine Side, the Palestine side of Palestine and israel conflict
+    link: https://www.palestineside.site
+
+APIs:
+  - title: List of API endpoints providing data related to Palestine
+    link: https://github.com/Zain-ul-din/awesome-palestine-apis

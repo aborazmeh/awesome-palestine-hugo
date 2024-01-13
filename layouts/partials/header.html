@@ -1,0 +1,28 @@
+<nav class="bg-green-500 p-4 text-white">
+  <div class="container mx-auto flex justify-between items-center">
+    <a href="#" class="text-lg font-bold">{{ site.Title }}</a>
+    <ul class="flex space-x-4">
+      <li><a href="/contribute" class="hover:underline">Contribute</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header id="hero" class="bg-gray-800 text-white text-center py-20">
+  <div class="container mx-auto">
+    <h1 class="text-4xl font-bold mb-4">{{ site.Title }}</h1>
+    <p class="text-lg">
+      A curated list of Palestine and Palestinian-Israeli conflict resources.
+    </p>
+
+    {{- if eq .RelPermalink  "/" -}}
+      <p class="text-lg">
+        Want to contribute? Thanks. please refer to
+        <a class="text-sky-500" href="/contribute">this</a>
+        first.
+      </p>
+    {{- end -}}
+
+  </div>
+</header>
+
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}

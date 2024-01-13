@@ -1,0 +1,39 @@
+<ul class="ms-4">
+  {{- range . -}}
+    <li>
+      {{- partial "icon.html" (dict "section" "Books" "entry" .) }}
+      <a
+        href="{{- if .goodreads_id -}}
+          https://www.goodreads.com/book/show/{{- .goodreads_id -}}
+        {{- else -}}
+          {{- .link -}}
+        {{- end -}}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {{ .title }}
+        , by
+        {{ .author }}
+        ({{ .pub_year -}})
+      </a>
+      {{- range .adds }}
+        |
+        {{- partial "icon.html" (dict "section" "Books" "entry" .) }}
+        <a
+          href="{{- if .goodreads_id -}}
+            https://www.goodreads.com/book/show/{{- .goodreads_id -}}
+          {{- else -}}
+            {{- .link -}}
+          {{- end -}}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{- .title -}}</a
+        >
+      {{- end -}}
+
+      {{- if .note -}}
+        <div>{{- .note | markdownify -}}</div>
+      {{- end -}}
+    </li>
+  {{- end -}}
+</ul>

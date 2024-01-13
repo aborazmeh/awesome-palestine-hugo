@@ -1,0 +1,44 @@
+{{- $icons := dict "Official" "🏛️" "Documents & Reports" "📄" "Books" "📚" "Archives" "🗃️" "Movies" "🎬" "Donations" "🌱" "Petitions" "📝" -}}
+
+{{ if .entry.icon }}
+  {{ .entry.icon }}
+{{ else if findRE `^https://(www.)?youtube.com/` .entry.link }}
+  <img
+    class="inline-block"
+    src="images/youtube.svg"
+    alt="{{ i18n "Youtube icon" | default "Youtube icon" }}"
+  />
+{{ else if findRE `^https://(www.)?vimeo.com/` .entry.link }}
+  <img
+    class="inline-block"
+    src="images/vimeo.svg"
+    alt="{{ i18n "Vimeo icon" | default "Vimeo icon" }}"
+  />
+{{ else if findRE `^https://(www.)?t.me/` .entry.link }}
+  <img
+    class="inline-block"
+    src="images/telegram.svg"
+    alt="{{ i18n "Telegram icon" | default "Telegram icon" }}"
+  />
+{{ else if findRE `^https://(www.)?instagram.com/` .entry.link }}
+  <img
+    class="inline-block"
+    src="images/instagram.svg"
+    alt="{{ i18n "Instagram icon" | default "Instagram icon" }}"
+  />
+{{ else if findRE `^https://(www.|open.)?spotify.com/` .entry.link }}
+  <img
+    class="inline-block"
+    src="images/spotify.svg"
+    alt="{{ i18n "Spotify icon" | default "Spotify icon" }}"
+  />
+{{ else if findRE `^https://(www.)?(x|twitter).com/` .entry.link }}
+  𝕏
+{{ else if index $icons .section }}
+  {{ index $icons .section }}
+{{- else -}}
+  🌐
+{{- end -}}
+{{- if .entry.country -}}
+  {{- printf ":flag_%s:" .entry.country | emojify }}
+{{ end }}

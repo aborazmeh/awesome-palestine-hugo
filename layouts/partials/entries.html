@@ -1,0 +1,29 @@
+{{- $section := .section -}}
+
+
+<ul class="ms-4">
+  {{- range .entries -}}
+    <li>
+      {{- partial "icon.html" (dict "section" $section "entry" .) }}
+      <a href="{{- .link -}}" target="_blank" rel="noopener noreferrer"
+        >{{- .title -}}</a
+      >
+
+      {{- with .adds_list -}}
+        {{ partial "entries.html" (dict "section" $section "entries" .) }}
+      {{- end -}}
+
+      {{- range .adds }}
+        |
+        {{- partial "icon.html" (dict "section" $section "entry" .) }}
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
+          >{{- .title -}}</a
+        >
+      {{- end -}}
+
+      {{- if .note -}}
+        <div class="ms-4">{{- .note | markdownify -}}</div>
+      {{- end -}}
+    </li>
+  {{- end -}}
+</ul>

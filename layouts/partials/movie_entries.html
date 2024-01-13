@@ -1,0 +1,32 @@
+<ul class="ms-4">
+  {{- range . -}}
+    <li>
+      {{- partial "icon.html" (dict "section" "Movies" "entry" .) }}
+      <a
+        href="{{- partial "movie_link.html" . -}}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {{ .title }}
+        ({{ .year -}})
+      </a>
+      {{- range .adds }}
+        |
+        {{- partial "icon.html" (dict "section" "Movies" "entry" .) }}
+        <a
+          href="{{- partial "movie_link.html" . -}}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{- .title -}}
+          {{ if .year }}
+            ({{ .year -}})
+          {{ end }}
+        </a>
+      {{- end -}}
+
+      {{- if .note -}}
+        <div>{{- .note | markdownify -}}</div>
+      {{- end -}}
+    </li>
+  {{- end -}}
+</ul>
