@@ -1,0 +1,72 @@
+{
+  "Official": {
+    "data": {{- site.Data.data.Books.History | jsonify -}}
+  },
+  "Documents & Reports": {
+    "data": {{- index site.Data.data "Documents & Reports" | jsonify -}}
+  },
+  "Essays & Articles": {
+    "data": {{- index site.Data.data "Essays & Articles" | jsonify -}}
+  },
+  "Books": {
+    "History": {
+      "data": {{- site.Data.data.Books.History | jsonify -}}
+    },
+    "Politics": {
+      "data": {{- site.Data.data.Books.Politics | jsonify -}}
+    },
+    "Israel": {
+      "data": {{- site.Data.data.Books.Israel | jsonify -}}
+    },
+    "Zionism": {
+      "data": {{- site.Data.data.Books.Zionism | jsonify -}},
+      "Non-Jewish Zionism": {
+        "data": {{- index site.Data.data.Books "Non-Jewish Zionism" | jsonify -}}
+      }
+    },
+    "Gaza": {
+      "data": {{- site.Data.data.Books.Gaza | jsonify -}}
+    },
+    "Arabs of Israel (48-Palestinians)": {
+      "data": {{- index site.Data.data.Books "Arabs of Israel (48-Palestinians)" | jsonify -}}
+    },
+    "Biographies, Autobiographies & Memoirs": {
+      "data": {{- index site.Data.data.Books "Biographies, Autobiographies & Memoirs" | jsonify -}}
+    },
+    "Fiction": {
+      "data": {{- site.Data.data.Books.Fiction | jsonify -}}
+    }
+  },
+  "Archives": {
+    "data": {{- site.Data.data.Archives | jsonify -}}
+  },
+  "Movies": {
+    "data": {{- site.Data.data.Movies | jsonify -}}
+  },
+  "Media": {
+    "data": {{- site.Data.data.Media | jsonify -}}
+  },
+  "War Supporting Companies": {
+    "data": {{- index site.Data.data "War Supporting Companies" | jsonify -}}
+  },
+  "Open-Source Intelligence": {
+    "data": {{- index site.Data.data "Open-Source Intelligence" | jsonify -}}
+
+  },
+  "Activists & Journalists": {
+    "data": {{- index site.Data.data "Activists & Journalists" | jsonify -}}
+  },
+  "Donations": {
+    "data": {{- site.Data.data.Donations | jsonify -}}
+  },
+  "Petitions": {
+    "data": {{- site.Data.data.Petitions | jsonify -}}
+  },
+  "Pro-Palestine Websites": {
+    "data": {{- index site.Data.data "Pro-Palestine Websites" | jsonify -}}
+  },
+  "APIs": {
+    "data": {{- site.Data.data.Media | jsonify -}}
+  },
+  "License": "MIT"
+}

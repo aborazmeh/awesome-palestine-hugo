@@ -1,3 +1,6 @@
 baseURL = 'https://awesome-palestine.com/'
 languageCode = 'en'
 title = 'Awesome Palestine'
+
+[outputs]
+  home = ['html', 'json']
