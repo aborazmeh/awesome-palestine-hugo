@@ -9,23 +9,23 @@
 
   <h2>{{ i18n "Books" | default "Books" }}</h2>
   <h3>{{ i18n "History" | default "History" }}</h3>
-  {{ partial "book_entries.html" site.Data.data.Books.History }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" site.Data.data.Books.History) }}
   <h3>{{ i18n "Politics" | default "Politics" }}</h3>
-  {{ partial "book_entries.html" site.Data.data.Books.Politics }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" site.Data.data.Books.Politics) }}
   <h3>{{ i18n "Israel" | default "Israel" }}</h3>
-  {{ partial "book_entries.html" site.Data.data.Books.Israel }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" site.Data.data.Books.Israel) }}
   <h3>{{ i18n "Zionism" | default "Zionism" }}</h3>
-  {{ partial "book_entries.html" site.Data.data.Books.Zionism }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" site.Data.data.Books.Zionism) }}
   <h4>{{ i18n "Non-Jewish Zionism" | default "Non-Jewish Zionism" }}</h4>
-  {{ partial "book_entries.html" (index site.Data.data.Books "Non-Jewish Zionism") }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" (index site.Data.data.Books "Non-Jewish Zionism")) }}
   <h3>{{ i18n "Gaza" | default "Gaza" }}</h3>
-  {{ partial "book_entries.html" site.Data.data.Books.Gaza }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" site.Data.data.Books.Gaza) }}
   <h3>
     {{ i18n "Arabs of Israel (48-Palestinians)" | default "Arabs of Israel (48-Palestinians)" }}
   </h3>
-  {{ partial "book_entries.html" (index site.Data.data.Books "Arabs of Israel (48-Palestinians)") }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" (index site.Data.data.Books "Arabs of Israel (48-Palestinians)")) }}
   <h3>{{ i18n "Fiction" | default "Fiction" }}</h3>
-  {{ partial "book_entries.html" site.Data.data.Books.Fiction }}
+  {{ partial "entries.html" (dict "section" "Books" "entries" site.Data.data.Books.Fiction) }}
 
 
   <h2>{{ i18n "Archives" | default "Archives" }}</h2>
@@ -33,7 +33,7 @@
 
 
   <h2>{{ i18n "Movies" | default "Movies" }}</h2>
-  {{ partial "movie_entries.html" site.Data.data.Movies }}
+  {{ partial "entries.html" (dict "section" "Movies" "entries" site.Data.data.Movies) }}
 
 
   <h2>{{ i18n "Media" | default "Media" }}</h2>

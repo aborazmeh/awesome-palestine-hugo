@@ -1,4 +1,6 @@
-{{- if .imdb_tt -}}
+{{- if .goodreads_id -}}
+  https://www.goodreads.com/book/show/{{- .goodreads_id -}}
+{{- else if .imdb_tt -}}
   https://www.imdb.com/title/tt{{- .imdb_tt -}}
 {{- else if .youtube_id -}}
   https://www.youtube.com/watch/?v={{- .youtube_id -}}

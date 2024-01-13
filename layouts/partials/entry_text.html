@@ -1,0 +1,11 @@
+{{- .title -}}
+{{- if .author -}}
+  , by
+  {{ .author -}}
+{{- end -}}
+{{- if .pub_year }}
+  ({{- .pub_year -}})
+{{- end -}}
+{{- if .year }}
+  ({{- .year -}})
+{{- end -}}

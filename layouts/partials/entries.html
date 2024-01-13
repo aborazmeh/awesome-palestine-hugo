@@ -5,9 +5,12 @@
   {{- range .entries -}}
     <li>
       {{- partial "icon.html" (dict "section" $section "entry" .) }}
-      <a href="{{- .link -}}" target="_blank" rel="noopener noreferrer"
-        >{{- .title -}}</a
-      >
+      <a
+        href="{{- partial "entry_link.html" . -}}"
+        target="_blank"
+        rel="noopener noreferrer"
+        >{{- partial "entry_text.html" . -}}
+      </a>
 
       {{- with .adds_list -}}
         {{ partial "entries.html" (dict "section" $section "entries" .) }}
@@ -16,9 +19,12 @@
       {{- range .adds }}
         |
         {{- partial "icon.html" (dict "section" $section "entry" .) }}
-        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
-          >{{- .title -}}</a
-        >
+        <a
+          href="{{- partial "entry_link.html" . -}}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{- partial "entry_text.html" . -}}
+        </a>
       {{- end -}}
 
       {{- if .note -}}
