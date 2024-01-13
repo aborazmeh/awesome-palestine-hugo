@@ -3,9 +3,15 @@
   , by
   {{ .author -}}
 {{- end -}}
-{{- if .pub_year }}
-  ({{- .pub_year -}})
-{{- end -}}
-{{- if .year }}
-  ({{- .year -}})
+
+{{- if .pub_date }}
+  {{ $dateMachine := .pub_date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .pub_date | time.Format ":date_long" }}
+  (<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>)
+{{- else if .pub_year }}
+  {{ $dateMachine := printf "%d-01-01" .pub_year | time.Format "2006-01-02T15:04:05-07:00" }}
+  (<time datetime="{{ $dateMachine }}">{{ .pub_year }}</time>)
+{{- else if .year }}
+  {{ $dateMachine := printf "%d-01-01" .year | time.Format "2006-01-02T15:04:05-07:00" }}
+  (<time datetime="{{ $dateMachine }}">{{ .year }}</time>)
 {{- end -}}
