@@ -54,6 +54,18 @@ Books:
       author: Sandy Tolan
       pub_year: 2006
       goodreads_id: 151740
+    - title: 'Sacred Landscape: The Buried History of the Holy Land since 1948'
+      author: Meron Benvenisti
+      pub_year: 2000
+      goodreads_id: 185613
+    - title: 'All That Remains: The Palestinian Villages Occupied and Depopulated by Israel in 1948'
+      author: Walid Khalidi
+      pub_year: 1992
+      goodreads_id: 205154936
+    - title: 'Orientalism'
+      author: Edward W. Said
+      pub_year: 1978
+      goodreads_id: 355190
   Politics:
     - title: 'Fateful Triangle: The United States, Israel, and the Palestinians'
       author: Noam Chomsky
@@ -93,6 +105,10 @@ Books:
           pub_year: 2021
           icon: 📰
           link: https://www.nybooks.com/daily/2021/03/19/a-day-in-the-life-of-abed-salama
+    - title: 'Palestine in Israeli School Books: Ideology and Propaganda in Education'
+      author: Nurit Peled-Elhanan
+      pub_year: 2012
+      goodreads_id: 12581276
     - title: من هم اليهود؟ وما هي اليهودية؟ أسئلة الهوية وأزمة الدولة اليهودية
       author: عبد الوهاب المسيري
       pub_year: 2008
@@ -280,6 +296,13 @@ Movies:
       - title: Palestine Is Still the Issue
         link: https://www.youtube.com/watch/?v=39EjqBrJBAc
         year: 2002
+  - title: Israelism
+    link: https://www.israelismfilm.com
+    year: 2023
+    adds:
+      - title: Israelism
+        imdb_tt: 9636732
+        year: 2023
 
 Media:
   - title: Al Jazeera
@@ -338,9 +361,13 @@ Media:
   - title: If Americans Knew
     link: https://ifamericansknew.org
   - title: The Grayzone
-    link: https://thegrayzone.com/
+    link: https://thegrayzone.com
   - title: CounterPunch
-    link: https://www.counterpunch.org/
+    link: https://www.counterpunch.org
+  - title: The Intercept
+    link: https://theintercept.com
+  - title: Double Down News
+    link: https://www.doubledown.news
 
 War Supporting Companies:
   - title: Boycott war supporting companies
@@ -402,6 +429,9 @@ Activists & Journalists:
     link: https://www.jonathan-cook.net
   - title: 'Palestine Legal: to protect the rights of people in the U.S. who speak out for Palestinian freedom'
     link: https://palestinelegal.org
+  - title: "Na'amod: British Jews Against Occupation"
+    link: https://naamod.org.uk
+    country: gb
 
 Donations:
   - title: UNRWA
