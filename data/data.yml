@@ -164,10 +164,6 @@ Books:
       author: عبد الوهاب المسيري
       pub_year: 2008
       goodreads_id: 5619985
-    - title: "The General's Son: Journey of an Israeli in Palestine"
-      author: Miko Peled
-      pub_year: 2012
-      goodreads_id: 14649174
   Zionism:
     - title: موسوعة اليهود واليهودية والصهيونية
       author: عبد الوهاب المسيري
@@ -217,6 +213,19 @@ Books:
       pub_year: 2011
       icon: 📖
       link: https://www.academia.edu/10514312/The_Palestinains_in_Israel_Readings_in_History_Politics_and_Society
+  Biographies, Autobiographies & Memoirs:
+    - title: Out of Place
+      author: Edward W. Said
+      pub_year: 1999
+      goodreads_id: 22136
+    - title: "Three Worlds: Memoir of an Arab-Jew"
+      author: Avi Shlaim
+      pub_year: 2023
+      goodreads_id: 62918666
+    - title: "The General's Son: Journey of an Israeli in Palestine"
+      author: Miko Peled
+      pub_year: 2012
+      goodreads_id: 14649174
   Fiction:
     - title: 'The Woman from Tantoura: A Palestinian Novel'
       author: Radwa Ashour
