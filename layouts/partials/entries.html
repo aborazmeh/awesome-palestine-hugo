@@ -1,8 +1,21 @@
 {{- $section := .section -}}
 
+{{- $entries := .entries -}}
+{{- if eq $section "Books" -}}
+  {{- $entries = sort .entries "pub_year" "desc" -}}
+{{- else if eq $section "Essays & Articles" -}}
+  {{- $entries = sort .entries "pub_date" "desc" -}}
+{{- else if eq $section "Movies" -}}
+  {{- $entries = sort .entries "year" "desc" -}}
+{{- else if eq $section "Donations" -}}
+  {{- $entries =  sort .entries "country" -}}
+{{- else if or (eq $section "Archives") (eq $section "Media") (eq $section "Activists & Journalists") (eq $section "Petitions") -}}
+  {{- $entries = sort .entries "title" -}}
+{{- end -}}
+
 
 <ul class="ms-4">
-  {{- range .entries -}}
+  {{- range $entries -}}
     <li>
       {{- partial "icon.html" (dict "section" $section "entry" .) }}
       <a
