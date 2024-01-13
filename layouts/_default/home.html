@@ -7,6 +7,10 @@
   {{ partial "entries.html" (dict "section" "Documents & Reports" "entries" (index site.Data.data "Documents & Reports")) }}
 
 
+  <h2>{{ i18n "Essays & Articles" | default "Essays & Articles" }}</h2>
+  {{ partial "entries.html" (dict "section" "Essays & Articles" "entries" (index site.Data.data "Essays & Articles")) }}
+
+
   <h2>{{ i18n "Books" | default "Books" }}</h2>
   <h3>{{ i18n "History" | default "History" }}</h3>
   {{ partial "entries.html" (dict "section" "Books" "entries" site.Data.data.Books.History) }}

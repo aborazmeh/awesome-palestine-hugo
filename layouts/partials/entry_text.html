@@ -1,7 +1,12 @@
 {{- .title | title -}}
+
 {{- if .author -}}
   , by
   {{ .author -}}
+{{- end -}}
+
+{{- if .source }}
+  <span class="font-bold">[{{- .source -}}]</span>
 {{- end -}}
 
 {{- if .pub_date }}
