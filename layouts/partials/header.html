@@ -1,8 +1,8 @@
 <nav class="bg-green-500 p-4 text-white">
   <div class="container mx-auto flex justify-between items-center">
-    <a href="#" class="text-lg font-bold">{{ site.Title }}</a>
+    <a href="/" class="text-lg font-bold">{{ site.Title }}</a>
     <ul class="flex space-x-4">
-      <li><a href="/contribute" class="hover:underline">Contribute</a></li>
+      <li><a href="/contributing" class="hover:underline">Contributing</a></li>
     </ul>
   </div>
 </nav>
@@ -17,7 +17,7 @@
     {{- if eq .RelPermalink  "/" -}}
       <p class="text-lg">
         Want to contribute? Thanks. please refer to
-        <a class="text-sky-500" href="/contribute">this</a>
+        <a class="text-sky-500" href="/contributing">this</a>
         first.
       </p>
     {{- end -}}
