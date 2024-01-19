@@ -5,14 +5,16 @@ Official:
     link: https://www.pcbs.gov.ps
 
 Documents & Reports:
-  - title: Detailed list of the civilian causalities between 7-26 October
-    link: https://www.aljazeera.net/wp-content/uploads/2023/10/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D8%A8%D8%A7%D8%B3%D9%85%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D9%87%D8%AF%D8%A7%D8%A1-2.pdf
   - title: Anti-Palestinian Racism Framework by the Arab Canadian Lawyers Association
-    link: https://static1.squarespace.com/static/61db30d12e169a5c45950345/t/627dcf83fa17ad41ff217964/1652412292220/Anti-Palestinian+Racism-+Naming%2C+Framing+and+Manifestations.pdf
-    note: 📄 [Anti-Palestinian Racism Factsheet by Canadians for Justice in Palestine and the Middle East](https://assets.nationbuilder.com/cjpme/pages/965/attachments/original/1657297831/227_-_Factsheet_on_Anti-Palestinian_Racism_-_EN.pdf?1657297831)
+    link: /documents/anti-palestinian-racism-naming-framing-and-manifestations.pdf
+    adds_list:
+      - title: Anti-Palestinian Racism Factsheet by Canadians for Justice in Palestine and the Middle East
+        link: /documents/factsheet-on-anti-palestinianracism.pdf
   - title: International Court of Justice application alleging Genocide in Gaza, filed 29 December 2023
-    link: https://www.icj-cij.org/sites/default/files/case-related/192/192-20231228-app-01-00-en.pdf
-    note: 📄 [Summary by John Mearsheimer](https://mearsheimer.substack.com/p/genocide-in-gaza)
+    link: /documents/icj-2023-12-29
+    adds_list:
+      - title: Summary by John Mearsheimer
+        link: https://mearsheimer.substack.com/p/genocide-in-gaza
   - title: Human Rights Watch
     link: https://www.hrw.org/middle-east/north-africa/israel/palestine
     adds:
@@ -31,6 +33,20 @@ Documents & Reports:
     link: https://prc.org.uk
   - title: Madar Center
     link: https://www.madarcenter.org
+
+Civilian Causalities Since October 7th:
+  - title: Detailed list of the civilian causalities between 07-26 October
+    link: /documents/martyrs-07-26-october.en.pdf
+    text: '- English'
+  - title: Detailed list of the children causalities between 07-26 October
+    link: /documents/children-07-26-october.en.pdf
+    text: '- English'
+  - title: Detailed list of the civilian causalities including children between 07-26 October
+    link: /documents/martyrs-07-26-october.ar.pdf
+    text: '- Arabic'
+  - title: Detailed list of the civilian causalities between 07 October and 02 November (Gaza) / 05 January 2024 (South of Gaza)
+    link: /documents/martyrs-07-october-02-november_gaza-05-january-2024_south.xlsx
+    text: '- Arabic'
 
 Essays & Articles:
   - title: I can't sleep
@@ -339,8 +355,9 @@ Movies:
       - title: Five Broken Cameras
         link: https://www.youtube.com/watch/?v=SI37liwTIYI
         year: 2011
-  - title: Al Nakba Documentary (multi-lingual)
+  - title: Al Nakba Documentary
     link: https://www.youtube.com/playlist?list=PL30A8F80C4E383847
+    text: (multi-lingual)
     year: 2014
   - title: من أي رفح أنت؟
     link: https://www.aljazeera.net/programs/al-jazeeraspecialprograms/2014/8/6/%D9%85%D9%86-%D8%A3%D9%8A-%D8%B1%D9%81%D8%AD-%D8%A3%D9%86%D8%AA

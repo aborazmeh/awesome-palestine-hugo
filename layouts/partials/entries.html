@@ -24,6 +24,7 @@
         rel="noopener noreferrer"
         >{{- partial "entry_text.html" . -}}
       </a>
+      {{ if .text -}} {{ .text -}} {{- end -}}
 
       {{- with .adds_list -}}
         {{ partial "entries.html" (dict "section" $section "entries" .) }}
@@ -38,6 +39,7 @@
           rel="noopener noreferrer"
           >{{- partial "entry_text.html" . -}}
         </a>
+      {{ if .text -}} {{ .text -}} {{- end -}}
       {{- end -}}
 
       {{- if .note -}}

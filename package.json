@@ -1,13 +1,15 @@
 {
   "scripts": {
     "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css",
-    "watch": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch"
+    "watch": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "publish": "surge public awesome-palestine.com"
   },
   "dependencies": {
     "prettier": "^3.1.1",
     "prettier-plugin-go-template": "^0.0.15"
   },
   "devDependencies": {
+    "surge": "^0.23.1",
     "tailwindcss": "^3.4.1"
   }
 }
