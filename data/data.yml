@@ -218,7 +218,7 @@ Books:
       author: Edward W. Said
       pub_year: 1999
       goodreads_id: 22136
-    - title: "Three Worlds: Memoir of an Arab-Jew"
+    - title: 'Three Worlds: Memoir of an Arab-Jew'
       author: Avi Shlaim
       pub_year: 2023
       goodreads_id: 62918666
@@ -532,6 +532,9 @@ Donations:
   - title: One Nation - Gaza Emergency Appeal
     link: https://onenationuk.org/gazaemergency
     country: gb
+  - title: Sulala Animal Rescue
+    link: https://sulalaanimalrescue.com/
+    country: ps
 
 Petitions:
   - title: Palestine Campaign
