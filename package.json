@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css",
+    "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css; hugo",
     "watch": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
-    "publish": "surge public awesome-palestine.com"
+    "publish": "npm run build; surge public awesome-palestine.com"
   },
   "dependencies": {
     "prettier": "^3.1.1",
