@@ -151,6 +151,10 @@ Books:
       author: Jimmy Carter
       pub_year: 2006
       goodreads_id: 9345
+    - title: 'The Palestine Laboratory: How Israel Exports the Technology of Occupation Around the World'
+      author: Antony Loewenstein
+      pub_year: 2023
+      goodreads_id: 62790909
   Israel:
     - title: Ten Myths About Israel
       author: Ilan Pappé
@@ -454,6 +458,8 @@ War Supporting Companies:
         link: https://t.me/Savegazabot
   - title: bdnaash
     link: https://bdnaash.com
+  - title: BoycottList
+    link: https://boycottlist.xyz
   - title: boycotzionism
     link: https://www.boycotzionism.com
   - title: Boykot Ürünleri
