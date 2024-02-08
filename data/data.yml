@@ -384,6 +384,13 @@ Movies:
       - title: Israelism
         imdb_tt: 9636732
         year: 2023
+  - title: The Occupation of the American Mind
+    link: https://www.occupationmovie.org/
+    year: 2018
+    adds:
+      - title: The Occupation of the American Mind
+        link: https://www.youtube.com/watch?v=dP0-YohJR-g
+        year: 2018
 
 Media:
   - title: Al Jazeera
