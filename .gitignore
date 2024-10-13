@@ -1,5 +1,3 @@
-assets/css/style.css
-
 # Logs
 logs
 *.log
@@ -130,3 +128,7 @@ public
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Hugo
+resources
+public
